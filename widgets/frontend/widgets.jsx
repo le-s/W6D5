@@ -1,8 +1,23 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//   const root = document.getElementById('root');
-// 
-//   ReactDOM.render(
-//     <h1>React is working</h1>,
-//     root
-//   );
-// });
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Clock from './clock';
+
+document.addEventListener('DOMContentLoaded', () => {
+  const root = document.getElementById('root');
+  
+  ReactDOM.render(
+    <Root/>,
+    root
+  );
+});
+
+const Root = function() {
+  return(
+    <div>
+      <Clock/>
+    </div>
+  );
+};
+
+
+
