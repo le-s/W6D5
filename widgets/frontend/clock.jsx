@@ -33,8 +33,8 @@ class Clock extends React.Component {
     
     return (
       <div>
-        <h1>Clock</h1>
-        <h2>{hours}:{minutes}:{seconds}</h2>
+        <h1 className="clock">Clock</h1>
+        <h2 className="clock">{hours}:{minutes}:{seconds}</h2>
       </div>
     );
   }

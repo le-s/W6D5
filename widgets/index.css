@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://wallpapertag.com/wallpaper/full/a/1/3/150768-pastel-blue-background-1920x1200-for-iphone.jpg");
+  background-image: url("https://img.favcars.com/toyota/supra/wallpapers_toyota_supra_1982_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -8,8 +8,9 @@ body {
 
 h1, h2 {
   font-family: 'Chakra Petch', sans-serif;
+  color: #FE1913;
   display: block;
-  text-shadow: 3px 6px powderblue;
+  text-shadow: 3px 6px #C6D8E6;
   position: absolute;
   right: 100px;
   top: 100px;
